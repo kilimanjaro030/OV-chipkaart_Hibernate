@@ -79,6 +79,6 @@ public class Adres {
     }
 
     public String toString() {
-        return " Adres {#" + id + " " + postcode +"-" + huisnummer + "} ";
+        return " Adres [" + id + " " + postcode +"-" + huisnummer + "] ";
     }
 }

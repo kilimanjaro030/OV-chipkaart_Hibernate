@@ -74,9 +74,9 @@ public class Reiziger {
     public String toString() {
         String s = "";
         if(tussenvoegsel == null){
-            s = s + " Reiziger {#" + id + ": " + voorletters + ". "  + achternaam + " " + "(" + geboortedatum + ")} " + adres.toString();
+            s = s + " Reiziger =[" + id + ": " + voorletters + ". "  + achternaam + " " + "(" + geboortedatum + ")] " + adres.toString();
         }else{
-            s = s + " Reiziger {#" + id + ": " + voorletters + ". " + tussenvoegsel + " " + achternaam + " " + "(" + geboortedatum + ")} " + adres.toString();
+            s = s + " Reiziger =[" + id + ": " + voorletters + ". " + tussenvoegsel + " " + achternaam + " " + "(" + geboortedatum + ")] " + adres.toString();
         }
         return s;
     }

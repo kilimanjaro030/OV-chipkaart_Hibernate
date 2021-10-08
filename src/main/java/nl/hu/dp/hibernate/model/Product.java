@@ -76,7 +76,7 @@ public class Product {
     }
 
     public String toString() {
-        String s = " Product {#" + product_nummer + " naam: " + naam + " beschrijving: " + beschrijving + " prijs: " + prijs + "} ";
+        String s = " Product [" + product_nummer + " naam: " + naam + " beschrijving: " + beschrijving + " prijs: " + prijs + "] ";
         return s;
     }
 }

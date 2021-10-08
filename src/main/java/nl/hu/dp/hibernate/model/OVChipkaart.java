@@ -75,7 +75,7 @@ public class OVChipkaart {
     }
 
     public String toString() {
-        String s = reiziger.toString() + " OVChipkaart {#" + kaart_nummer + " geldig_tot: " + geldig_tot + " klasse: " + klasse + " saldo " + saldo;
+        String s = reiziger.toString() + " OVChipkaart [" + kaart_nummer + " geldig_tot: " + geldig_tot + " klasse: " + klasse + " saldo " + saldo;
         for(Product products : producten){
             s = s + products.toString();
         }
